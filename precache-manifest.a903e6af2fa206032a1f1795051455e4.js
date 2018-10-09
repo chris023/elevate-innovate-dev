@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/elevate-innovate-dev/static/css/main.9bcb3502.chunk.css"
   },
   {
-    "revision": "e4082049e4e40764a707fbd153e75d34",
+    "revision": "59cdd37a76b62d34896421e0ab82759e",
     "url": "/elevate-innovate-dev/index.html"
   }
 ];
