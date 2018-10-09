@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import hamburgerico from '../assets/icons/hamburger.svg';
+import { Trail, config, animated } from 'react-spring'
 
 import '../styles/NavList.css';
 
@@ -18,15 +19,33 @@ class NavList extends Component {
   }
 
   render() {
+    let links = ['Us', 'Work', 'Develop', 'Deliver', 'Innovation', 'Contact'];
+
     return (
       <div className={`nav-container ${this.state.expanded ? 'nav-container-expand' : 'nav-container-collapse'}`}>
         <ul className={`nav-links ${this.state.expanded ? '' : 'hide'}`}>
-          <li className='nav-link nav-us'>Us</li>
-          <li className='nav-link nav-work'>Work</li>
-          <li className='nav-link nav-develop'>Develop</li>
-          <li className='nav-link nav-deliver'>Deliver</li>
-          <li className='nav-link nav-innovation'>Innovation</li>
-          <li className='nav-link nav-contact'>Contact</li>
+          <Trail
+            native
+            from={{
+              opacity: 0,
+              x: 100
+            }}
+            to={{
+              opacity: this.state.expanded ? 1 : 0.25,
+              x: this.state.expanded ? 0 : -100
+            }}
+            keys={links}>
+            {links.map(link => ({ x, opacity }) => (
+              <animated.li
+                className="nav-link"
+                // onClick={this.toggleNavMenu}
+                style={{
+                  opacity,
+                  transform: x.interpolate(x => `translate3d(${x}%,0,0)`)
+                }}
+              >{link}</animated.li>
+            ))}
+          </Trail>
         </ul>
         <div className='nav-title'>
           <img className='hamburger-ico' onClick={this.toggleNavMenu} src={hamburgerico} alt=''></img>
