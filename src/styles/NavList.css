@@ -1,5 +1,7 @@
 .company-title {
+  align-items: center;
   color: #fff;
+  display: flex;
   font-family: 'Noto Serif', serif;
   font-size: 36px;
   margin: 0px;
@@ -13,7 +15,6 @@
 .hamburger-ico {
   height: 30px;
   width: 30px;
-  margin-bottom: -3px;
   margin-right: 10px;
 }
 
@@ -24,16 +25,11 @@
 .nav-container {
   display: flex;
   flex-direction: column;
+  height: 495px;
+  justify-content: flex-end;
   left: 30px;
   position: absolute;
-}
-
-.nav-container-collapse {
-  top: 50px;
-}
-
-.nav-container-expand {
-  bottom: 50px;
+  width: 365px;
 }
 
 .nav-link {
