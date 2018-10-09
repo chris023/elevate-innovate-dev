@@ -1,0 +1,62 @@
+.company-title {
+  color: #fff;
+  font-family: 'Noto Serif', serif;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.company-title:hover {
+  color: #ddd;
+  cursor: pointer;
+}
+
+.hamburger-ico {
+  height: 30px;
+  width: 30px;
+  margin-bottom: -3px;
+  margin-right: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  left: 30px;
+  position: absolute;
+}
+
+.nav-container-collapse {
+  top: 50px;
+}
+
+.nav-container-expand {
+  bottom: 50px;
+}
+
+.nav-link {
+  font-family: 'Noto Serif', serif;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.nav-link:hover {
+  color:#ddd;
+  cursor: pointer;
+}
+
+.nav-links {
+  color: #fff;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-title {
+  display: flex;
+}
+
+.nav-title-bottom {
+  transform: translateY(calc((100vw * 6 / 16)) );
+}

@@ -1,0 +1,12 @@
+.play-button {
+  height: 40px;
+  left: calc(50vw - 20px);
+  margin: auto;
+  position: absolute;
+  top: calc(50vw*(320/568) - 20px);
+}
+
+.play-button:hover {
+  filter: invert(.15);
+  cursor: pointer;
+}
