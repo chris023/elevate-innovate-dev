@@ -1,0 +1,28 @@
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  margin: 10vw 20vw;
+}
+
+.clients-grid > * {
+  width: 100%;
+}
+
+.clients-title {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  max-height: 20vw;
+  max-width: 20vw;
+  height: auto;
+  width: auto;
+}
+
+.logo-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

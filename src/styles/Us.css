@@ -1,9 +1,47 @@
+.Us {
+  margin-bottom: 10vw;
+}
+
 h2 {
-  color: #000000;
-  font-size: 50px;
-  font-family: "Suisse", sans-serif;
-  font-weight: 300;
-  line-height: 60px;
-  letter-spacing: .02em;
-  padding-left: 50px;
+  font-size: 44px;
+}
+
+p {
+  font-size: 32px;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.us-wrapper {
+  color: #fff;
+  background-image: url('../assets/images/stock-teamwork.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat';
+  height: calc( 100vw * 2 / 3);
+  padding: 300px;
+  position: relative;
+}
+
+.us-wrapper:after {
+  position: absolute;
+  content:"";
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0) 0%,rgb(0, 0, 0) 80%),
+    linear-gradient(to top, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+  z-index: 2;
+}
+
+.us-wrapper > * {
+  text-align: center;
+  z-index: 99;
 }

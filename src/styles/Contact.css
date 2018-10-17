@@ -1,0 +1,15 @@
+.Contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10vw;
+}
+
+p {
+  margin: 10px;
+}
+
+.links > a {
+  margin: 10px;
+}

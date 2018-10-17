@@ -3,13 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import WebFont from 'webfontloader';
-
-WebFont.load({
-  google: {
-    families: ['Noto Serif:300,400,700', 'serif']
-  }
-});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

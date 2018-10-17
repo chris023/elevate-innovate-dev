@@ -22,10 +22,7 @@ class NavList extends Component {
     const links = ['Us', 'Work', 'Develop', 'Deliver', 'Innovation', 'Contact'];
 
     return (
-      // <div className={`nav-container ${this.state.expanded ? 'nav-container-expand' : 'nav-container-collapse'}`}>
-      // <div className={`nav-container`}>
         <Spring
-        // from={{ top: this.state.expanded ? '400px' : '20px' }}
         to={{ top: this.state.expanded ? '200px' : '-400px' }}
         config={{ tension: 40, friction: 26 }}
         >
