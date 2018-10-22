@@ -2,6 +2,10 @@
   "name": "elevate-innovate-dev",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.4.1",
+    "node": "9.5.0"
+  },
   "dependencies": {
     "@dr-kobros/react-webfont-loader": "^8.0.0",
     "animate.css": "^3.7.0",
