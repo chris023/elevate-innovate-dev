@@ -1,0 +1,23 @@
+.Design {
+  position: relative;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  padding: 0 5vw;
+}
+
+.floater-samples {
+  height: 400px;
+}
+
+.grey-goose {
+  grid-row: span 3;
+}

@@ -3,14 +3,13 @@ import BackgroundVideo from './BackgroundVideo';
 import Nav from './Nav';
 
 import '../styles/Header.css';
+import StickyNav from './StickyNav';
 
 const Header = () => (
-  <React.Fragment>
-    <div className="header-wrapper">
-      <BackgroundVideo />
-      <Nav />
-    </div>
-  </React.Fragment>
+  <div className="Header">
+    <StickyNav currentSection="header" />
+    <BackgroundVideo />
+  </div>
 );
 
 export default Header;

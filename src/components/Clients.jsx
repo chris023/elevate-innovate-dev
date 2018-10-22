@@ -10,6 +10,7 @@ import ferarriLogo from '../assets/logos/ferrari.svg';
 import redBullLogo from '../assets/logos/red-bull.svg';
 import nikeLogo from '../assets/logos/nike.svg';
 import greyGooseLogo from '../assets/logos/grey-goose.svg';
+import StickyNav from './StickyNav';
 
 const Clients = () => {
   const logos = [
@@ -25,18 +26,20 @@ const Clients = () => {
   ];
 
   return (
-    <React.Fragment>
+    <div className="Clients">
       {/* <h2 className="clients-title">Clients</h2> */}
+      <StickyNav currentSection="Clients" />
       <div className="clients-grid">
 
         {logos.map(logo => (
           <div key={logo} className="logo-container">
+            {/* <img className={`logo logo-${logo.toLowerCase()}`} src={logo} alt="" /> */}
             <img className="logo" src={logo} alt="" />
           </div>
         ))}
 
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 

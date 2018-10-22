@@ -1,15 +1,31 @@
 .Contact {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  min-height: 640px;
   justify-content: center;
-  margin-bottom: 10vw;
+  padding-left: 200px;
 }
 
-p {
-  margin: 10px;
+.contact-address {
+  margin:  40px 0;
 }
 
-.links > a {
-  margin: 10px;
+.contact-address > p {
+  margin: 0;
+}
+
+.contact-links {
+  margin: 40px 0;
+}
+
+.contact-links > a {
+  font-size: 32px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.contact-links > a:visited {
+  color: #0000ee;
 }

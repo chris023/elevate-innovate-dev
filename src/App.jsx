@@ -1,30 +1,24 @@
 import React from 'react';
-import WebfontLoader from '@dr-kobros/react-webfont-loader';
 import './App.css';
 
+import { ParallaxProvider } from 'react-scroll-parallax';
 import Header from './components/Header';
 import Us from './components/Us';
-import Skills from './components/Skills';
+import Design from './components/Design';
 import Clients from './components/Clients';
 import Contact from './components/Contact';
-
-const config = {
-  google: {
-    families: ['Montserrat:300,400,700', 'sans-serif'],
-  },
-};
+import SiteBackground from './components/SiteBackground';
 
 const App = () => (
 
-  <React.Fragment>
-    <WebfontLoader config={config}>
-      <Header />
-      <Us />
-      <Skills />
-      <Clients />
-      <Contact />
-    </WebfontLoader>
-  </React.Fragment>
+  <ParallaxProvider>
+    <SiteBackground />
+    <Header />
+    <Us />
+    <Design />
+    <Clients />
+    <Contact />
+  </ParallaxProvider>
 );
 
 export default App;

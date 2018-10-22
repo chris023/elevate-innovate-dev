@@ -1,5 +1,6 @@
 .Us {
-  margin-bottom: 10vw;
+  /* height: 100vh; */
+  min-height: 900px;
 }
 
 h2 {
@@ -17,9 +18,28 @@ p {
   justify-content: center;
 }
 
+.parallax-content {
+  position: relative;
+}
+
+.sticky-nav-Us {
+  color: #fff;
+}
+
+.us {
+  position: relative;
+}
+
+.us-sticky {
+  position: sticky;
+  right: 20px;
+  top: 20px;
+  z-index: 2;
+}
+
 .us-wrapper {
   color: #fff;
-  background-image: url('../assets/images/stock-teamwork.jpeg');
+  background-image: url('../assets/images/stock-teamwork.png');
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Montserrat';
@@ -28,20 +48,6 @@ p {
   position: relative;
 }
 
-.us-wrapper:after {
-  position: absolute;
-  content:"";
-  height:100%;
-  width:100%;
-  top:0;
-  left:0;
-  background: 
-    linear-gradient(to right, rgba(0, 0, 0, 0) 0%,rgb(0, 0, 0) 80%),
-    linear-gradient(to top, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
-  z-index: 2;
-}
-
 .us-wrapper > * {
   text-align: center;
-  z-index: 99;
 }

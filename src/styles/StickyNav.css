@@ -1,0 +1,16 @@
+.elevate-logo {
+  width: 200px;
+}
+
+.sticky-nav-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: sticky;
+  top: 40px;
+  z-index: 5;
+}
+
+.sticky-nav-wrapper > * {
+  width: 300px;
+}

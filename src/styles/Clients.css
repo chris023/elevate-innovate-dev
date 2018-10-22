@@ -1,8 +1,14 @@
+.Clients {
+  height: 100vh;
+  min-height: 1000px;
+}
+
 .clients-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
-  margin: 10vw 20vw;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .clients-grid > * {
@@ -15,8 +21,8 @@
 }
 
 .logo {
-  max-height: 20vw;
-  max-width: 20vw;
+  max-height: 12vw;
+  max-width: 12vw;
   height: auto;
   width: auto;
 }
