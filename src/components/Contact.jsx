@@ -1,13 +1,14 @@
 import React from 'react';
 
 import '../styles/Contact.css';
+import 'animate.css/animate.min.css';
 import { Parallax } from 'react-scroll-parallax';
+import ScrollAnimation from 'react-animate-on-scroll';
 import StickyNav from './StickyNav';
-
 
 const Contact = () => {
   const content = (
-    <div className="Contact">
+    <div className="contact-wrapper">
       <div className="contact-address">
         <p>1415 SW 21st Avenue</p>
         <p>Fort Lauderdale, FL  33312</p>
@@ -27,18 +28,29 @@ const Contact = () => {
   const ParallaxContent = () => (
     <Parallax
       className="parallax-content"
-      offsetYMax={80}
-      offsetYMin={-80}
+      offsetYMax={40}
+      offsetYMin={-40}
     >
       {content}
     </Parallax>
   );
 
-  return (
-    <React.Fragment>
-      <StickyNav currentSection="Contact" />
+  const FadeInContent = () => (
+    <ScrollAnimation
+      animateIn="fadeIn"
+      delay={200}
+      offset={600}
+      duration={2}
+    >
       {ParallaxContent()}
-    </React.Fragment>
+    </ScrollAnimation>
+  );
+
+  return (
+    <div className="Contact">
+      <StickyNav currentSection="Contact" />
+      {FadeInContent()}
+    </div>
   );
 };
 

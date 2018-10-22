@@ -23,7 +23,7 @@ p {
 }
 
 .sticky-nav-Us {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .us {
@@ -41,10 +41,10 @@ p {
   color: #fff;
   background-image: url('../assets/images/stock-teamwork.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   font-family: 'Montserrat';
   height: calc( 100vw * 2 / 3);
-  padding: 300px;
+  padding: 0 300px;
   position: relative;
 }
 

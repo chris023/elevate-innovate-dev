@@ -1,7 +1,9 @@
 import React from 'react';
 
 import '../styles/Us.css';
+import 'animate.css/animate.min.css';
 import { Parallax } from 'react-scroll-parallax';
+import ScrollAnimation from 'react-animate-on-scroll';
 import StickyNav from './StickyNav';
 
 const Us = () => {
@@ -24,12 +26,23 @@ const Us = () => {
     </Parallax>
   );
 
+  const FadeInContent = () => (
+    <ScrollAnimation
+      animateIn="fadeIn"
+      delay={75}
+      offset={600}
+      duration={2}
+    >
+      {ParallaxContent()}
+    </ScrollAnimation>
+  );
+
   return (
     <React.Fragment>
       <div className="Us">
         <StickyNav currentSection="Us" />
         <div className="flex-center us-wrapper">
-          { ParallaxContent() }
+          { FadeInContent() }
         </div>
       </div>
     </React.Fragment>

@@ -1,8 +1,8 @@
 import React from 'react';
 
 import '../styles/Design.css';
-import greyGoose from '../assets/images/greygoose.jpg';
-import monte from '../assets/images/monte.jpeg';
+import designSmall from '../assets/images/sketches.png';
+import designBig from '../assets/images/dusse_cabinet.png';
 import StickyNav from './StickyNav';
 
 const Design = () => (
@@ -10,10 +10,10 @@ const Design = () => (
     <StickyNav currentSection="Skills" />
     <div className="design-grid">
       <div className="center monte">
-        <img className="monte-img" src={monte} alt="" />
+        <img className="design-img-small" src={designSmall} alt="" />
       </div>
       <div className="center grey-goose">
-        <img className="grey-goose" src={greyGoose} alt="" />
+        <img className="design-img-big" src={designBig} alt="" />
       </div>
       <h2 style={{ textAlign: 'center' }}>Design</h2>
       <p style={{ textAlign: 'center' }}>IT ALL STARTS WITH AN IDEA</p>
