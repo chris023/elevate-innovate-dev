@@ -4,12 +4,16 @@ self.__precacheManifest = [
     "url": "/elevate-innovate-dev/static/media/brembo.2b8519c5.svg"
   },
   {
-    "revision": "56ce7960f286efb53e07",
-    "url": "/elevate-innovate-dev/static/css/main.9ef8b7b8.chunk.css"
+    "revision": "c88dac6ed0899ec94dce",
+    "url": "/elevate-innovate-dev/static/css/main.f447f40f.chunk.css"
   },
   {
-    "revision": "778105ab455f4416d807",
-    "url": "/elevate-innovate-dev/static/js/1.778105ab.chunk.js"
+    "revision": "6855a9b783d8b7758ee384f14aebe45f",
+    "url": "/elevate-innovate-dev/static/media/blueprint.6855a9b7.jpg"
+  },
+  {
+    "revision": "350d7f618b4553b018de",
+    "url": "/elevate-innovate-dev/static/js/1.350d7f61.chunk.js"
   },
   {
     "revision": "ba9c1ad9a51ff2f10f5b",
@@ -20,28 +24,28 @@ self.__precacheManifest = [
     "url": "/elevate-innovate-dev/static/media/promovid.a9388f29.mp4"
   },
   {
-    "revision": "20c2ddf1199a489509f92a166622c5e5",
-    "url": "/elevate-innovate-dev/static/media/ElevateManagement_Logo.20c2ddf1.svg"
+    "revision": "5da839d6fef7426e1a15e96db32618b3",
+    "url": "/elevate-innovate-dev/static/media/ElevateManagement_Logo.5da839d6.svg"
   },
   {
-    "revision": "5e3dacce48c59ebc896681320b9c6bc3",
-    "url": "/elevate-innovate-dev/static/media/skills-deliver.5e3dacce.jpg"
+    "revision": "11b2eeb88c011860d0600463be0c9e42",
+    "url": "/elevate-innovate-dev/static/media/elevate_logo.11b2eeb8.png"
   },
   {
-    "revision": "db47871ae8285a427b32edb28cd6775c",
-    "url": "/elevate-innovate-dev/static/media/skills-design.db47871a.jpg"
+    "revision": "eaa02f79db157287f2d77dc79f212d6f",
+    "url": "/elevate-innovate-dev/static/media/sketches.eaa02f79.png"
   },
   {
-    "revision": "16c6ce946e3e87d1bc867f366cdd5534",
-    "url": "/elevate-innovate-dev/static/media/skills-develop.16c6ce94.png"
+    "revision": "8b9b3f30cd2b990938da0a1cddfe3949",
+    "url": "/elevate-innovate-dev/static/media/dusse_cabinet.8b9b3f30.png"
   },
   {
     "revision": "ff9b65d14b6c9b8ccc328af7324b3955",
     "url": "/elevate-innovate-dev/static/media/citi.ff9b65d1.svg"
   },
   {
-    "revision": "56ce7960f286efb53e07",
-    "url": "/elevate-innovate-dev/static/js/main.56ce7960.chunk.js"
+    "revision": "c88dac6ed0899ec94dce",
+    "url": "/elevate-innovate-dev/static/js/main.c88dac6e.chunk.js"
   },
   {
     "revision": "5c74537353e24012394f5320a4f20e2e",
@@ -72,11 +76,15 @@ self.__precacheManifest = [
     "url": "/elevate-innovate-dev/static/media/grey-goose.9cd5117c.svg"
   },
   {
-    "revision": "bcf283ed4a2e6179b991d7f25e5522ec",
-    "url": "/elevate-innovate-dev/static/media/stock-teamwork.bcf283ed.jpeg"
+    "revision": "59f028e6faee660efddf145c97db16cf",
+    "url": "/elevate-innovate-dev/static/media/stock-teamwork.59f028e6.png"
   },
   {
-    "revision": "e41610af46a3a30a2263a09791276769",
+    "revision": "350d7f618b4553b018de",
+    "url": "/elevate-innovate-dev/static/css/1.9d8359fe.chunk.css"
+  },
+  {
+    "revision": "f88e4d28da37c841be1f4c549eb63c1d",
     "url": "/elevate-innovate-dev/index.html"
   }
 ];
