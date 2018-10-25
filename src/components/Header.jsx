@@ -7,7 +7,7 @@ import StickyNav from './StickyNav';
 
 const Header = () => (
   <div className="Header">
-    <StickyNav currentSection="header" />
+    {/* <StickyNav currentSection="header" /> */}
     <BackgroundVideo />
   </div>
 );

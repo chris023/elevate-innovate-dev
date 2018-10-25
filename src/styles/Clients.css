@@ -1,14 +1,15 @@
 .Clients {
-  height: 100vh;
-  min-height: 1000px;
+  width: 100%;
+  margin: 400px 0;
 }
 
 .clients-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
   grid-gap: 60px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: auto 200px;
+  width: 100%;
 }
 
 .clients-grid > * {
@@ -16,19 +17,6 @@
 }
 
 .clients-title {
-  display: flex;
-  justify-content: center;
-}
-
-.logo {
-  max-height: 12vw;
-  max-width: 12vw;
-  height: auto;
-  width: auto;
-}
-
-.logo-container {
-  align-items: center;
   display: flex;
   justify-content: center;
 }

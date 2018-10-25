@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Rakkas');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+
 .app-grid-container {
   display: grid;
   grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+.elevate-logo-container {
+  top: calc(100vw * 9 / 16 - 80px);
+  position: absolute;
+  right: 40px;
+  z-index: 2;
+}
+
+.logo {
+  position: sticky;
+  top: 40px;
+  width: 160px;
+  z-index: 2;
+}
+
+.logo:hover {
+  cursor: pointer;
+  filter: brightness(150%);
 }

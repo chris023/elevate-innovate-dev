@@ -1,0 +1,61 @@
+.Skills {
+  font-family: 'Rakkas', cursive;
+  margin: 200px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.round-ds {
+  border-radius: 4px;
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.365);
+}
+
+.sketches {
+  width: 353px;
+  height: 280px;
+}
+
+.dusseDisp {
+  width: 497px;
+  height: 373px;
+}
+
+.dusseCab {
+  width: 497px;
+  height: 373px;
+}
+
+.hennesy {
+  width: 339px;
+  height: 339px;
+}
+
+.liquorDisp {
+  width: 385px;
+  height: 514px;
+}
+
+.capMorgan {
+  width: 620px;
+  height: 464px;
+}
+
+.rect {
+  width: 100%;
+  height: auto;
+}
+
+.rect-wrapper {
+  align-items: center;
+  display: flex;
+  width: auto;
+  height: calc(100% * 2776 / 1440); /* 50vw * (.rect-> height/width)  */
+}
+
+/* .rect-container {
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+} */

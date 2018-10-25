@@ -40,9 +40,11 @@ const Us = () => {
   return (
     <React.Fragment>
       <div className="Us">
-        <StickyNav currentSection="Us" />
-        <div className="flex-center us-wrapper">
-          { FadeInContent() }
+        {/* <StickyNav currentSection="Us" /> */}
+        <div className="align-left">
+          <div className="us-wrapper flex-center">
+            { FadeInContent() }
+          </div>
         </div>
       </div>
     </React.Fragment>

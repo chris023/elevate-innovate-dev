@@ -1,0 +1,33 @@
+.big-develop-img {
+  width: 80%;
+  margin-right: 8%;
+}
+
+.big-img-container {
+  display: flex;
+  justify-content: flex-end;
+  grid-row: span 3;
+}
+
+.develop-body {
+  margin: 0;
+}
+
+.develop-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.develop-h2 {
+  margin: 0;
+  margin-top: 40px;
+}
+
+.design-text-content > * {
+  margin: 0;
+}
+
+.small-develop-img {
+  margin-top: 15%;
+  width: 80%;
+}

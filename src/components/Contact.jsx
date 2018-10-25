@@ -48,7 +48,7 @@ const Contact = () => {
 
   return (
     <div className="Contact">
-      <StickyNav currentSection="Contact" />
+      {/* <StickyNav currentSection="Contact" /> */}
       {FadeInContent()}
     </div>
   );

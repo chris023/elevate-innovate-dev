@@ -18,13 +18,10 @@ import StickyNav from './StickyNav';
 const Clients = () => {
   const logos = [
     citiLogo,
-    bremboLogo,
-    hublotLogo,
-    harrodsLogo,
-    rollsRoyceLogo,
-    ferarriLogo,
-    redBullLogo,
     nikeLogo,
+    bremboLogo,
+    redBullLogo,
+    harrodsLogo,
     greyGooseLogo,
   ];
 
@@ -42,17 +39,19 @@ const Clients = () => {
   return (
     <div className="Clients">
       {/* <h2 className="clients-title">Clients</h2> */}
-      <StickyNav currentSection="Clients" />
-      <div className="clients-grid">
+      {/* <StickyNav currentSection="Clients" /> */}
+      <div className="center-fix center">
+        <div className="clients-grid">
 
-        {logos.map((logo, i) => (
-          FadeInContent((
-            <div key={logo} className="logo-container">
-              <img className="logo" src={logo} alt="" />
-            </div>
-          ), 75 * ((i % 3) + 1))
-        ))}
+          {logos.map((logo, i) => (
+            FadeInContent((
+              <div key={logo} className="logo-container">
+                <img className="logo" src={logo} alt="" />
+              </div>
+            ), 75 * ((i % 3) + 1))
+          ))}
 
+        </div>
       </div>
     </div>
   );

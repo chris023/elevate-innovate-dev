@@ -1,4 +1,4 @@
-.logo {
+/* .logo {
   height: 80px;
   z-index: 2;
 }
@@ -6,7 +6,7 @@
 .logo:hover {
   cursor: pointer;
   filter: brightness(150%);
-}
+} */
 
 .nav-wrapper {
   position: absolute;

@@ -1,5 +1,10 @@
 .Us {
-  /* height: 100vh; */
+  background-image: url('../assets/images/stock-teamwork.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Rokkitt', serif;
+  height: 100vh;
+  margin: 400px 0;
   min-height: 900px;
 }
 
@@ -11,6 +16,12 @@ p {
   font-size: 32px;
 }
 
+.align-left {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
 .flex-center {
   align-items: center;
   display: flex;
@@ -20,10 +31,6 @@ p {
 
 .parallax-content {
   position: relative;
-}
-
-.sticky-nav-Us {
-  /* color: #fff; */
 }
 
 .us {
@@ -39,13 +46,11 @@ p {
 
 .us-wrapper {
   color: #fff;
-  background-image: url('../assets/images/stock-teamwork.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: 'Montserrat';
   height: calc( 100vw * 2 / 3);
-  padding: 0 300px;
+  margin: 0 100px;
+  /* padding: 0 300px; */
   position: relative;
+  width: 500px;
 }
 
 .us-wrapper > * {

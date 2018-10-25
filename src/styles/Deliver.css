@@ -1,0 +1,17 @@
+.deliver-grid {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+}
+
+.big-deliver-img {
+  width: 80%;
+  transform: translateX(-15%);
+}
+
+.small-deliver-img {
+  width: 80%;
+}
+
+.small-img-container {
+  grid-row: span 2;
+}
