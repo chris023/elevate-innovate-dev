@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/elevate-innovate-dev/static/media/cap_morgan.f11433ee.jpeg"
   },
   {
-    "revision": "54bab076ac1e25ba7d37",
-    "url": "/elevate-innovate-dev/static/css/main.0a2376ed.chunk.css"
+    "revision": "a70391fcb529327e00c0",
+    "url": "/elevate-innovate-dev/static/css/main.78eff185.chunk.css"
   },
   {
     "revision": "6855a9b783d8b7758ee384f14aebe45f",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/elevate-innovate-dev/static/media/liquor_display.6b292d15.jpg"
   },
   {
-    "revision": "54bab076ac1e25ba7d37",
-    "url": "/elevate-innovate-dev/static/js/main.54bab076.chunk.js"
+    "revision": "a70391fcb529327e00c0",
+    "url": "/elevate-innovate-dev/static/js/main.a70391fc.chunk.js"
   },
   {
     "revision": "ff9b65d14b6c9b8ccc328af7324b3955",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/elevate-innovate-dev/static/css/1.c62bad6b.chunk.css"
   },
   {
-    "revision": "32015bc0874314d90b337cdd3be03c6e",
+    "revision": "c529ad15050f98a5748fad9f1a113dfc",
     "url": "/elevate-innovate-dev/index.html"
   }
 ];
