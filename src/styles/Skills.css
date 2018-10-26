@@ -1,7 +1,11 @@
 .Skills {
+  background: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 10%, #fff 90%, rgba(255, 255, 255, 0) 100%);
+    /* linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #fff 10%); */
   font-family: 'Rakkas', cursive;
   margin: 200px 0;
   position: relative;
+  padding: 200px 0;
   overflow: hidden;
 }
 
